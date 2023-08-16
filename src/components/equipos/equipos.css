@@ -1,0 +1,33 @@
+.equipo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 2rem;
+  position: relative;
+}
+.equipo__titulo {
+  margin: 2rem auto;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.colaborador__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.color__input {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+@media (min-width: 769px) {
+  .colaborador__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

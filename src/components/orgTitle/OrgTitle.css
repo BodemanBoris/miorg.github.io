@@ -1,0 +1,16 @@
+.agregar__img:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+@media (max-width: 769px) {
+  .form__title {
+    font-size: 2rem;
+  }
+  .agregar__img {
+    width: 70px;
+    height: 70px;
+    top: 40px;
+  }
+}
